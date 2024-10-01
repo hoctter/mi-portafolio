@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1f1a1a;
+}
+
+header {
+    background-color: #333;
+    color: #ffaf04;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    color: rgb(63, 255, 66);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(98, 124, 255);
+    margin: 5px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    
+    #menu-toggle:checked + .menu-icon + .menu {
+        display: flex;
+    }
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* Estilo general para las secciones */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Añadimos algo de espacio entre las secciones */
+#skills, #about, #contacts {
+    background-color: #a188fa;
+    margin-top: 20px;
+}
+
+#home {
+    background-color: rgb(113, 175, 255);
+}
+
