@@ -123,11 +123,11 @@ p {
 
 /* Añadimos algo de espacio entre las secciones */
 #skills, #about, #contacts {
-    background-color: #ff35d0;
+   background-color: #a2d0f7;
     margin-top: 20px;
 }
 
 #home {
-    background-color: #ff35d0;
+    background-color: #a2d0f7;;
 }
 
