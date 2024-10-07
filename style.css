@@ -91,7 +91,9 @@ nav {
 section {
     padding: 20px;
     text-align: center;
-    color: blueviolet;
+    color: black;
+    background-color: cadetblue;
+    
 }
 
 h1 {
