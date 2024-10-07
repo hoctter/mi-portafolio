@@ -53,7 +53,7 @@ nav {
 .hamburger {
     width: 25px;
     height: 3px;
-    background-color: rgb(249, 32, 231);
+    background-color: rgb(241, 241, 241);
     margin: 5px;
 }
 
@@ -123,11 +123,11 @@ p {
 
 /* Añadimos algo de espacio entre las secciones */
 #skills, #about, #contacts {
-    background-color: #a188fa;
+    background-color: #ff35d0;
     margin-top: 20px;
 }
 
 #home {
-    background-color: rgb(113, 175, 255);
+    background-color: #ff35d0;
 }
 
