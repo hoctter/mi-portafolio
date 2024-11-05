@@ -67,12 +67,12 @@ nav {
     background-color: #541f00;
     color: #fff;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 2rem 2rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 5rem;
     position: absolute;
-    top: 4rem; /* Ajustamos para que quede un poco más abajo */
-    right: 1rem; /* Alineamos a la derecha del header */
+    top: 2rem; /* Ajustamos para que quede un poco más abajo */
+    right: 4rem; /* Alineamos a la derecha del header */
     border-radius: 5px;
 }
 
