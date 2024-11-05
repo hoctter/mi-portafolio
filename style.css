@@ -28,9 +28,7 @@ header {
 }
 
 nav {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+    position: relative;
 }
 
 .menu-icon {
@@ -106,4 +104,32 @@ h2 {
     margin: 1rem 0;
     font-size: 1rem;
     text-align: left;
+}
+
+/* Responsividad para dispositivos móviles */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 1rem;
+        background-color: #ffedb2;
+        width: 200px;
+        border-radius: 8px;
+        padding: 1rem 0;
+    }
+
+    #menu-toggle:checked + .menu-icon + .menu {
+        display: flex;
+    }
+
+    .menu li {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
 }
