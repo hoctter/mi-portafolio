@@ -126,3 +126,19 @@
   margin-right: 8px; /* Espacio entre el ícono y cualquier texto, si lo hay */
 }
 
+
+#language-toggle {
+  background-color: #541f00;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+#language-toggle:hover {
+  background-color: #4b1d00;
+}
+
