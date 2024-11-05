@@ -119,4 +119,10 @@
     transform: scale(1.05);
     background-color: #e2d5c3; 
   }
-  
+
+.home-icon {
+  font-size: 1.6rem; /* Tamaño del ícono */
+  color: #383c38; /* Color del ícono (el mismo que el texto de los enlaces) */
+  margin-right: 8px; /* Espacio entre el ícono y cualquier texto, si lo hay */
+}
+
